@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontak Kami - JAPCO</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f4f4f4; text-align: center; }
+        .container { max-width: 800px; margin: auto; padding: 20px; text-align: justify; line-height: 1.6; background: white; border-radius: 8px; box-shadow: 0px 0px 10px rgba(0,0,0,0.1); }
+        .navbar { background: #D2691E; padding: 10px; }
+        .navbar a { color: white; text-decoration: none; margin: 0 15px; font-weight: bold; }
+        .navbar a:hover { text-decoration: underline; }
+        .contact-info { display: flex; justify-content: center; align-items: center; gap: 30px; margin: 20px 0; font-size: 20px; }
+        .contact-info a { display: flex; align-items: center; color: #333; text-decoration: none; font-weight: bold; }
+        .contact-info img { width: 32px; height: 32px; margin-right: 10px; }
+        form { text-align: center; }
+        input, textarea { width: 100%; padding: 10px; margin: 10px 0; border: 1px solid #ccc; border-radius: 5px; }
+        button { background: #D2691E; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer; font-size: 16px; }
+        button:hover { background: #A0522D; }
+        .map iframe { width: 100%; height: 300px; border: 0; border-radius: 8px; }
+        footer { background: #333; color: white; padding: 10px; margin-top: 20px; text-align: center; }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="index.html">Beranda</a>
+        <a href="tentang.html">Tentang Kami</a>
+        <a href="pengurus.html">Pengurus</a>
+        <a href="produk.html">Produk</a>
+        <a href="Tracebility.html">Tracebility</a>
+        <a href="kontak.html">Kontak Kami</a>
+    </div>
+
+    <div class="container">
+        <h2>Hubungi Kami</h2>
+        <div class="contact-info">
+            <a href="mailto:koperasi.pkjp2018@gmail.com" target="_blank">
+                <img src="image/email.png" alt="Email"> koperasi.pkjp2018@gmail.com
+            </a>
+            <a href="https://wa.me/6282123439851" target="_blank">
+                <img src="image/iconwa.png" alt="WhatsApp"> 0821-2343-9851
+            </a>
+        </div>
+        <form>
+            <input type="text" name="name" placeholder="Nama" required>
+            <input type="email" name="email" placeholder="Email" required>
+            <textarea name="message" placeholder="Pesan" rows="4" required></textarea>
+            <button type="submit">Kirim Pesan</button>
+        </form>
+    </div>
+
+    <div class="container">
+        <h2>Lokasi Kami</h2>
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3959.825174053635!2d107.72069076843917!3d-7.029825153310983!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68c1a6839f114b%3A0xd7ee503e666e368d!2skoperasi%20produsen%20petani%20kopi%20java%20preanger!5e0!3m2!1sid!2sid!4v1741998056443!5m2!1sid!2sid" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <p><a href="https://maps.app.goo.gl/Ge3BdjBBYYhxHYcG8" target="_blank">Buka di Google Maps</a></p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 JAPCO - Java Preanger Coffee Cooperative</p>
+    </footer>
+</body>
+</html>
